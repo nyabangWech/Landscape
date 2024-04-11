@@ -1,0 +1,117 @@
+body{
+
+}
+.navbar{
+   display:flex;
+   gap:10%;  
+}.baims{
+    color:black;
+    font-size: large;
+}#search{
+margin: top;
+padding:20px;
+border-radius: 40px;
+justify-content: space-around;
+    
+
+}.sign{
+    background-color:darkblue;
+    border-radius: 40px;
+    padding:20px;
+    justify-content: space-around;
+    
+} .button{
+ border-radius: 20px;
+ justify-content: space-around;
+ background-color: beige;
+ color:black;
+}.image{
+    padding-top: 20px;
+    margin-top: auto;
+
+}
+    
+.count{
+    display:flex;
+    border:solid 1px;
+    border-color: black;
+    background-color: aliceblue;
+    padding-top: 24px;
+    gap:30px;
+}#subjects{
+    display:block;
+}.containers{
+    background-color: blueviolet;
+    
+}.container1{
+background-color: palevioletred;
+
+}.container2{
+    display: flex;
+    gap:50px;
+    
+}@media all and(min-width:280px) and(max-width:1024px){
+
+    body{
+        background-color: blue;
+        }
+        .navbar{
+           display:flex;
+           flex-wrap: wrap;
+           
+        }.baims{
+            color:black;
+            font-size: medium;
+
+        }#search{
+        margin: top;
+        padding-top: 0px;
+        border-radius: 10px;
+            
+        
+        }.sign{
+            background-color:darkblue;
+            border-radius: 1px;
+            padding:0px;
+            
+        } .button{
+         border-radius: 5px;
+         justify-content: space-around;
+         background-color: beige;
+         color:black;
+        }.body{
+        
+        }
+            
+        .count{
+            display:flex;
+            border:solid 1px;
+            border-color: black;
+            background-color: aliceblue;
+            padding-top: 0px;
+            gap:1px;
+            flex-wrap: wrap;
+        }#subjects{
+            display:block;
+            flex-wrap: wrap;
+        
+            
+            
+        }.container1{
+        background-color: palevioletred;
+        
+        }.container2{
+            display: flex;
+            gap:1px;
+            flex-wrap: wrap;
+
+}
+.container2 img{
+    min-width: auto;
+}
+}
+ 
+
+
+
+    
