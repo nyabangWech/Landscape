@@ -1,5 +1,7 @@
-
-
+body{
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #282332;
+}
 .header{
     display: block;
 }
@@ -7,7 +9,8 @@
    display:flex;
    padding-top: 20px;
    margin: 30px;
-   gap: 5%;
+   gap: 10%;
+   margin-top: 50x;
    
 }#baims{
     color:black;
@@ -29,84 +32,128 @@ justify-content: space-around;
 } #button{
  border-radius: 20px;
  justify-content: space-around;
- background-color: blue;
+ background-color: #282332;
  color:aliceblue;
  margin-top: 20px;
- margin-bottom: 20px;
- padding: 25px;
+ padding: 20px;
+ height:20px;
 }.image{
     padding-top: 20px;
     margin-top: auto;
 
-}#img{
+}.img{
     border-radius: 4px;
     width: 600px;
 }
     
 .numbers{
     display:flex;
-    border:solid 1px;
-    border-color: black;
     background-color: aliceblue;
     padding-top: 24px;
     padding:20px;
     gap:10%;
     text-align: center;
+    height:30vh;
+    border: wheat solid 1px;
 }#subjects{
     display:block;
 }.hero{
     display: flex;
     gap:80px;
     margin-bottom: 20px;
+    color:#282332;
     
-}#inputfield{
-  border-radius: 12px;
-  background-color: palevioletred;
+} 
 
-}#input{
-    border-radius: 12px;
-    padding: 20px;
+
+#input{ 
+    border-radius: 50px;
+    padding: 100px;
     margin-bottom: 20px;
+    width:150px;
 }
 
 .container{
-    background-color: palevioletred;
+    background-color: #FACFCC;
     gap:50px;
     
 }
-.fontawesome i{
-    position: absolute;
-    font-size: x-small;
-    
+
+#search{
+   display: flex;
 }
+#inputfield{
+
+    width: 1;
+     padding: 50px; 
+    border-radius: 20px;
+    background-color: pink;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: center;
+    text-align: center;
+    color:black;
+}
+.searchinput i{
+ position: absolute;
+padding-left: 12px;
+margin-top: 4px;
+}
+    
+
+
 .fontawesome{
     background-color: palevioletred;
-    padding: 20px;
+    padding: 100px;
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
     
-}.solid i{
+}.barinput i{
     position:absolute;
-    float: right;
+    padding-left:4px;
+    margin-top:4px;
+    
 
 } 
-.solid{
-    padding-top: 20px;
+#input{
+    
+    width: 1;
+    padding: 200px; 
+   border-radius: 6px;
+   background-color: white;
+   padding-left: 40px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   justify-content: center;
+   text-align: center;
+
+}#apply{
+    margin-top:4px;
+}.studies{
+    font-size: x-large;
+    text-align: left;
+}.study{
+    text-align: right;
+    text-align: center;
 }
-@media only screen and (max-width:768px){
 
 
+@media all  and (min-width:600px)and(max-width:1024px){
+    body{
+        font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #282332;
+    }
     .header{
         display: block;
-        flex-wrap:wrap ;
     }
     .navbar{
-       display:flex;
-       padding-top: 10px;
-       margin: 10px;
-       gap: 5%;
-       flex-wrap: wrap;
+       display:wrap;
+       padding-top: none;
+       margin: none;
+       gap: 10px;
+       margin-top: none;
        
     }#baims{
         color:black;
@@ -120,80 +167,124 @@ justify-content: space-around;
     
     }.sign{
         background-color:darkblue;
-        border-radius: 40px;
-        padding:10px;
+        border-radius: 20px;
+        padding:5px;
         justify-content: space-around;
         color: aliceblue;
         
     } #button{
-     border-radius: 20px;
+     border-radius: 10px;
      justify-content: space-around;
-     background-color: blue;
+     background-color: #282332;
      color:aliceblue;
-     margin-top: 20px;
-     margin-bottom: 20px;
-     padding: 25px;
-    }.image{
-        padding-top: 20px;
-        margin-top: auto;
+     margin-top: none;
+     padding: 15px;
+     height:30px;
+    }#image{
+        padding-top: 10px;
+        margin-top: none;
+
     
-    }#img{
+    }.img{
         border-radius: 4px;
-        width: 100px;
-        align-items: center;
+        width: 200px;
     }
         
     .numbers{
-        display:flex;
-        border:solid 1px;
-        border-color: black;
+        display:none;
         background-color: aliceblue;
-        padding-top: 24px;
-        padding:20px;
-        gap:10%;
-        text-align: center;
+        padding-top: 14px;
+        padding:10px;
+        gap:5%;
+        text-align: none;
+        height:20vh;
+        border: wheat solid 1px;
+        flex-wrap: wrap;
     }#subjects{
-        display:block;
+        display:none;
+
     }.hero{
-        display: flex;
-        gap:80px;
-        margin-bottom: 20px;
+        display: none;
+        gap:50px;
+        margin-bottom: 10px;
+        color:#282332;
         
-    }#inputfield{
-      border-radius: 12px;
-      background-color: palevioletred;
+    } 
     
-    }#input{
-        border-radius: 12px;
-        padding: 20px;
-        margin-bottom: 20px;
+    
+    #input{ 
+        border-radius: 30px;
+        padding: 50px;
+        margin-bottom: none;
+        width:100px;
     }
     
     .container{
-        background-color: palevioletred;
-        gap:50px;
+        background-color: #FACFCC;
+        gap:30px;
         
-
-
-
-
-
-
-
-
+    }
+    
+    #search{
+       display: wrap;
+    }
+    #inputfield{
+    
+        width: 1;
+         padding: 50px; 
+        border-radius: 10px;
+        background-color: pink;
+        padding-left: 20px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        justify-content:none;
+        text-align: none;
+        color:black;
+    }
+    .searchinput i{
+     position: absolute;
+    padding-left: 6px;
+    margin-top: 2px;
+    }
+        
+    
+    
+    .fontawesome{
+        background-color: palevioletred;
+        padding: 20px;
+        justify-content: center;
+        gap: 5px;
+        margin-top: 5px;
+        
+    }.barinput i{
+        position:absolute;
+        padding-left:4px;
+        margin-top:none;
+        
+    
+    } 
+    #input{
+        
+        width: 1;
+        padding: 100px; 
+       border-radius: 3px;
+       background-color: white;
+       padding-left: none;
+       padding-top: 5px;
+       padding-bottom: 5px;
+       justify-content: none;
+       text-align: none;
+    
+    }#apply{
+        margin-top:4px;
+    }.studies{
+        font-size: x-large;
+        text-align: left;
+    }.study{
+        text-align: right;
+        text-align: center;
+    }
+    
 
 }
-}
- 
-
-
-
-
-
-
-
-
-
-
-
-
+   
